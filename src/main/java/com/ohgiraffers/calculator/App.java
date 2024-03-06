@@ -60,7 +60,8 @@ public class App {
         return 0;
     }
     public static int divide(int x, int y){
-        return 0;
+        int result = x*y;
+        return result;
 
     }
 
