@@ -57,16 +57,31 @@ public class App {
     }
 
     public static int multiply(int x, int y){
-        return 0;
-    }
-    public static int divide(int x, int y){
         int result = x*y;
         return result;
+    }
+    public static int divide(int x, int y){
+        int result = 0;
+        try { result = x / y;
 
+        }catch (Exception e) {
+            System.out.println("0을 나눌 수 없습니다. ");
+
+        }
+
+        return result;
     }
 
     public static int modular(int x, int y){
-        return 0;
+        int result = 0;
+        try { result = x % y;
+
+        }catch (Exception e) {
+            System.out.println("0을 나눌 수 없습니다. ");
+
+        }
+
+        return result;
     }
 
 
